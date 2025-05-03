@@ -31,7 +31,7 @@ Types = [
     ('Sketcher::SketchObject', tr('Sketch'), str(Icons.fc_create_sketch), 'SketcherWorkbench'),
 ]
 
-VALID_NAME = re.compile(r'[a-zA-Z]\w+')
+VALID_NAME = re.compile(r'[a-zA-Z]\w*')
 
 class NamedObjectForm(QtCore.QObject):
 
